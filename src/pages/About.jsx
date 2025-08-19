@@ -33,32 +33,32 @@ export default function About() {
         {/* Skills Section Below About Me */}
         <div>
           <h2 className="text-3xl font-bold mb-2">Skills</h2>
-           <ul className="flex flex-wrap grid grid-cols-3 gap-2">
-    <li className="flex items-center px-3 py-2 rounded-xl bg-gray-100">
-      <img src="/html.png" alt="HTML" className="w-6 h-6 mr-2" />
-      HTML
-    </li>
-    <li className="flex items-center px-3 py-2 rounded-xl bg-gray-100">
-      <img src="/css.png" alt="CSS" className="w-6 h-6 mr-2" />
-      CSS
-    </li>
-    <li className="flex items-center px-3 py-2 rounded-xl bg-gray-100">
-      <img src="/js.png" alt="JavaScript" className="w-6 h-6 mr-2" />
-      JavaScript
-    </li>
-    <li className="flex items-center px-3 py-2 rounded-xl bg-gray-100">
-      <img src="/react.png" alt="React" className="w-6 h-6 mr-2" />
-      <span className="whitespace-normal break-words">React</span>
-    </li>
-    <li className="flex items-center px-3 py-2 rounded-xl bg-gray-100">
-      <img src="/python.png" alt="Python" className="w-6 h-6 mr-2" />
-      Python
-    </li>
-    <li className="flex items-center px-3 py-2 rounded-xl bg-gray-100">
-      <img src="github.png" alt="Git/GitHub" className="w-6 h-6 mr-2" />
-      Git/GitHub
-    </li>
-  </ul>
+<ul className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3">
+  <li className="flex items-center px-3 py-2 rounded-xl bg-gray-100">
+    <img src="/html.png" alt="HTML" className="w-6 h-6 mr-2" />
+    HTML
+  </li>
+  <li className="flex items-center px-3 py-2 rounded-xl bg-gray-100">
+    <img src="/css.png" alt="CSS" className="w-6 h-6 mr-2" />
+    CSS
+  </li>
+  <li className="flex items-center px-3 py-2 rounded-xl bg-gray-100">
+    <img src="/js.png" alt="JavaScript" className="w-6 h-6 mr-2" />
+    JavaScript
+  </li>
+  <li className="flex items-center px-3 py-2 rounded-xl bg-gray-100">
+    <img src="/react.png" alt="React" className="w-6 h-6 mr-2" />
+    React
+  </li>
+  <li className="flex items-center px-3 py-2 rounded-xl bg-gray-100">
+    <img src="/python.png" alt="Python" className="w-6 h-6 mr-2" />
+    Python
+  </li>
+  <li className="flex items-center px-3 py-2 rounded-xl bg-gray-100">
+    <img src="/github.png" alt="Git/GitHub" className="w-6 h-6 mr-2" />
+    Git/GitHub
+  </li>
+</ul>
         </div>
       </div>
     </section>
