@@ -7,7 +7,7 @@ It includes multiple pages to showcase my background, projects, resume, and cont
 
 ## 🔹 Pages
 - 🏠 **Home** – Introduction and career objective  
-- 👤 **About** – Short bio and background  
+- 👤 **About** – Short bio, background and skills  
 - 📂 **Projects** – Crop Recommender System and more  
 - 📄 **Resume** – Embedded PDF with view & download option  
 - 📬 **Contact** – Links to Email, GitHub, and LinkedIn  
