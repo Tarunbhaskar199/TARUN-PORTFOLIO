@@ -11,9 +11,16 @@ export default function Navbar() {
         <motion.div
           initial={{ opacity: 0, y: -8 }}
           animate={{ opacity: 1, y: 0 }}
-          className="font-bold text-lg"
+          className="flex items-center"
         >
-          Tarun<span className="text-primary">.</span>
+          <img
+            src="/profile.jpeg"
+            alt="Profile"
+            className="w-10 h-10 rounded-full object-cover"
+          />
+          {/* Name First */}
+          <NavLink to="/" className="font-bold text-xl ml-3">Tarun Bhaskar</NavLink>
+          {/* Profile Image Next */}
         </motion.div>
 
         <nav className="flex items-center gap-1">
