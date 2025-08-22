@@ -4,8 +4,18 @@ export default function SplashScreen() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    const timer = setTimeout(() => setLoading(false), 1500); 
-    return () => clearTimeout(timer);
+    const hasVisited = localStorage.getItem("hasVisited");
+
+    if (hasVisited) {
+      setLoading(false); // already visited → skip splash
+    } else {
+      const timer = setTimeout(() => {
+        setLoading(false);
+        localStorage.setItem("hasVisited", "true"); // mark as visited
+      }, 2500); // 2.5s splash only first time
+
+      return () => clearTimeout(timer);
+    }
   }, []);
 
   if (!loading) return null;
