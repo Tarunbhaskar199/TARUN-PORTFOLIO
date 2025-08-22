@@ -5,6 +5,7 @@ import './index.css'
 import App from './App'
 import Home from './pages/Home'
 import About from './pages/About'
+import Education from './pages/Education'
 import Projects from './pages/Projects'
 import Resume from './pages/Resume'
 import Contact from './pages/Contact'
@@ -16,6 +17,7 @@ const router = createBrowserRouter([
     children: [
       { index: true, element: <Home /> },
       { path: 'about', element: <About /> },
+      { path: 'education', element: <Education /> },
       { path: 'projects', element: <Projects /> },
       { path: 'resume', element: <Resume /> },
       { path: 'contact', element: <Contact /> },

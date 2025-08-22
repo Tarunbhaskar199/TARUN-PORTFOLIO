@@ -2,7 +2,7 @@ import Section from '../components/Section'
 
 export default function Resume() {
   return (
-    <Section title="Resume" subtitle="Download my latest CV.">
+    <Section  title="Resume" subtitle="Download my latest CV.">
       <div className="flex items-center gap-4">
         <a
           className="px-5 py-3 rounded-xl bg-primary text-white"
