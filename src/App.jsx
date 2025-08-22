@@ -8,7 +8,7 @@ export default function App() {
     <div className="min-h-screen bg-gradient-to-r from-purple-100 via-blue-50 to-pink-100 text-gray-900 flex flex-col">
       <SplashScreen />
       <Navbar />
-      <main className="flex-1">
+      <main className="flex-1 pt-24">
         <Outlet />
       </main>
       <Footer />
