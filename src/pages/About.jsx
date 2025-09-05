@@ -44,6 +44,12 @@ export default function About() {
           <li className="flex items-center px-3 py-2 rounded-xl bg-gray-100 shadow">
             <img src="/github.png" alt="GitHub" className="w-6 h-6 mr-2" /> Git/GitHub
           </li>
+          <li className="flex items-center px-3 py-2 rounded-xl bg-gray-100 shadow">
+            <img src="/java.png" alt="Java" className="w-6 h-6 mr-2" /> Java
+          </li>
+          <li className="flex items-center px-3 py-2 rounded-xl bg-gray-100 shadow">
+            <img src="/sql.png" alt="SQL" className="w-6 h-6 mr-2" /> SQL
+          </li>
         </ul>
       </div>
     </section>
