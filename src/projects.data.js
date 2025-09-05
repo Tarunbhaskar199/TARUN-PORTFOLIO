@@ -10,5 +10,17 @@ export const projects = [
     desc: "A simple note-taking web app built with HTML, CSS, and JavaScript.",
     tech: ["HTML", "CSS", "JS"],
     link: "https://github.com/Tarunbhaskar199"
+  },
+  {
+    title: "Personal Portfolio",
+    desc: "This is my personal portfolio website, built with HTML, CSS (Tailwind).",
+    tech: ["HTML", "CSS","React.js"],
+    link: "https://github.com/Tarunbhaskar199"
+  },
+  {
+    title: "Student Management",
+    desc: "A simple Java console application to manage student records with MySQL integration.",
+    tech: ["Java", "SQL"],
+    link: "https://github.com/Tarunbhaskar199"
   }
 ]
